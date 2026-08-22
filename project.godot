@@ -1,0 +1,23 @@
+; Engine configuration file.
+; Godot 4.x
+
+config_version=5
+
+[application]
+
+config/name="Kill Team Digital"
+config/description="Digital adaptation of the Kill Team tabletop skirmish game -- Phase 1 scaffold."
+run/main_scene="res://ui/main_menu/MainMenu.tscn"
+config/features=PackedStringArray("4.3")
+
+[autoload]
+
+EventBus="*res://autoload/EventBus.gd"
+GameStateManager="*res://autoload/GameStateManager.gd"
+DiceService="*res://autoload/DiceService.gd"
+ContentDatabase="*res://autoload/ContentDatabase.gd"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
