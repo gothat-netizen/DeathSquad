@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://core/resources/weapon_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+weapon_id = "kommando_choppa"
+base_name = "choppa"
+display_name = "Choppa"
+weapon_type = 1
+atk = 4
+hit_threshold = 3
+normal_dmg = 4
+critical_dmg = 5
+weapon_rules = Array[Resource]([])

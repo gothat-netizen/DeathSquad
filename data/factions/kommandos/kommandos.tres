@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="FactionData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://core/resources/faction_data.gd" id="1"]
+[ext_resource type="Resource" path="res://data/operatives/kommandos/boy.tres" id="2"]
+
+[resource]
+script = ExtResource("1")
+faction_id = "kommandos"
+display_name = "Kommandos"
+faction_keyword = "KOMMANDO"
+faction_rules = Array[Resource]([])
+strategy_ploys = Array[Resource]([])
+firefight_ploys = Array[Resource]([])
+faction_equipment = Array[Resource]([])
+roster = Array[Resource]([ExtResource("2")])

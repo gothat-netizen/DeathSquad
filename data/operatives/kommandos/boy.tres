@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="OperativeData" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://core/resources/operative_data.gd" id="1"]
+[ext_resource type="Resource" path="res://data/weapons/kommandos/slugga.tres" id="2"]
+[ext_resource type="Resource" path="res://data/weapons/kommandos/choppa.tres" id="3"]
+[ext_resource type="Resource" path="res://data/abilities/kommando_boy_taktical_wotnotz.tres" id="4"]
+
+[resource]
+script = ExtResource("1")
+operative_id = "kommando_boy"
+display_name = "Kommando Boy"
+faction_id = "kommandos"
+keywords = PackedStringArray("KOMMANDO", "ORK", "BOY")
+apl = 2
+move_inches = 6.0
+save_threshold = 5
+wounds = 10
+base_size_mm = 32
+weapons = Array[Resource]([ExtResource("2"), ExtResource("3")])
+abilities = Array[Resource]([ExtResource("4")])
+unique_actions = Array[Resource]([])
+forbidden_orders = PackedStringArray()
